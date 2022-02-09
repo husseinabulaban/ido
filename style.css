@@ -1,0 +1,128 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+}
+
+.roll-head {
+  height: 100vh;
+}
+
+.head {
+  background: url("https://www.mercedes-benz.co.in/passengercars/mercedes-benz-cars/models/v-class/v-class-447-1/design/interior-design/multifunctional-steering-wheel-/_jcr_content/par/productinfotextimage/media2/slides/videoimageslide/image.MQ6.12.2x.20200518123003.jpeg")
+    no-repeat bottom/cover;
+  width: 100%;
+  height: 100vh;
+  opacity: 90%;
+  box-shadow: inset rgba(0, 0, 0, 0.87) 0px 395px 80px;
+}
+
+.mercedes {
+  padding-left: 13px;
+  font-size: 20px;
+  color: gray;
+}
+
+.txt {
+  padding: 9% 0 0 6%;
+  font-size: 45px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.ido-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.roll1, .roll2 {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+}
+
+.roll2 {
+    background: #333;
+
+}
+.left-r1, .left-r2 {
+  padding: 10px 0 0 40px;
+  width: 60vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: relative;
+}
+.right-r1, .right-r2 {
+  text-align: left;
+  width: 40vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  margin-left: 12%;
+}
+
+.head-text {
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: rgb(100, 4, 4);
+    padding: 10px 0;
+}
+
+.black {
+  background: black;
+  width: 45%;
+  height: 46vh;
+  position: absolute;
+}
+
+.line1 {
+  width: 10%;
+  height: 8px;
+  background: rgb(44, 19, 19);
+
+}
+
+.pic1 {
+  z-index: 1;
+  box-shadow: inset rgba(255, 0, 0, 0.87) 0px 27px 8px;
+  width: 100%;
+  margin-left: 12%;
+  height: 280px;
+  object-fit: cover;
+  object-position: right;
+}
+
+.left-r2{
+    flex-direction: row;
+    justify-content: baseline;
+    padding: 60px 0 0 60px;
+}
+
+.left-row > img {
+    border-radius: 8px 90px;
+    width: 80%;
+    height: 190px;
+    object-fit: cover;
+    object-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.left-r2 :nth-child(3) {
+
+}
+
+
+
+.text {
+  width: 40%;
+}
